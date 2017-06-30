@@ -30,6 +30,7 @@ public class Main {
                     for (SObject s : queryResults.getRecords()) {
                         System.out.println("Id: " + s.getField("Id") + " - Name: " + s.getField("Name"));
                     }
+                    CsvFileWriter.writeCsvFile(queryResults.getRecords());
 
                     if (queryResults.isDone()) {
                         done = true;
