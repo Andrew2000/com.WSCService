@@ -7,8 +7,7 @@ import com.sforce.async.*;
 import com.sforce.soap.partner.PartnerConnection;
 import com.sforce.ws.ConnectionException;
 import com.sforce.ws.ConnectorConfig;
-
-
+gi
 public class BulkExample {
 
     public static void main(String[] args) throws AsyncApiException, ConnectionException, IOException {
